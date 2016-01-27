@@ -1,0 +1,18 @@
+{
+	"name": "Hesk QuickFix",
+	"version": "1.0",
+
+	"description": "Adds ease of use for putting in quick-fix tickets. Made for the Serve Help Desk at GCSU.",
+	"author": "Alexander Heavner",
+
+	"content_scripts": [
+    {
+      "matches": ["https://itworkorder.gcsu.edu/system/admin/new_ticket.php"],
+      "run_at": "document_end",
+      "css": ["styles.css"],
+      "js": ["thirdParty/jquery-2.2.0.min.js","quickfix.js"]
+    }
+  ],
+
+	"manifest_version": 2
+}
