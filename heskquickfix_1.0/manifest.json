@@ -10,7 +10,7 @@
       "matches": ["https://itworkorder.gcsu.edu/system/admin/new_ticket.php"],
       "run_at": "document_end",
       "css": ["styles.css"],
-      "js": ["thirdParty/jquery-2.2.0.min.js","quickfix.js"]
+      "js": ["thirdParty/jquery-2.2.0.min.js","thirdParty/jquery.mask.js","quickfix.js"]
     }
   ],
 

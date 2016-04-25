@@ -1,3 +1,7 @@
+//add phone mask to telephone input
+$('[name="custom2"]').mask("(000)000-0000")
+$('[name="custom3"]').mask("(000)000-0000")
+
 //select second <p> tag and add button directly after it
 $(document.getElementsByTagName("p")[1]).after("<button name='quickfix' id='quickfix_button' class='orangebutton' onmouseover=\"hesk_btn(this,'orangebuttonover');\" onmouseout=\"hesk_btn(this,'orangebutton');\" >Toggle QuickFix Mode</button>")
 
